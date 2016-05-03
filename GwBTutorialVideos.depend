@@ -1,4 +1,5 @@
 # depslib dependency file v1.0
-1462302281 source:c:\users\mbrow\dev\tut\gwbtutorialvideos\main.cpp
+1462304478 source:c:\users\mbrow\dev\tut\gwbtutorialvideos\main.cpp
 	<iostream>
+	<string>
 

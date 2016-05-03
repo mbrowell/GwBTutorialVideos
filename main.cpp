@@ -5,14 +5,27 @@ using namespace std;
 
 int main()
 {
-    string playerName = "Mike";
+    string playerName;
+    int age;
 
-    cout << "Your name is " << playerName << endl;
-    cout << "Your name is " << playerName.length() << " letters long.\n";
+    cout << "What is your name, Sir Knight?\n";
+    cin >> playerName;
+    cout << "Hello, Sir " << playerName << ".\n\n";
 
-    playerName = "Fred";
+    cout << "How old are you?\n";
+    cin >> age;
 
-    cout << "Your name is " << playerName << endl;
+    if (age >= 100)
+    {
+        cout << "You are way to old to play.\n";
+
+        return 0;
+    }
+
+    if (age == 69)
+    {
+        cout << "haha\n";
+    }
 
     return 0;
 }
