@@ -1,15 +1,18 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main()
 {
-    float playerDamage = 100.0f;
-    float zombieHealth = 200.0f;
+    string playerName = "Mike";
 
-    zombieHealth = zombieHealth - playerDamage;
+    cout << "Your name is " << playerName << endl;
+    cout << "Your name is " << playerName.length() << " letters long.\n";
 
-    cout << "The zombie has " << zombieHealth << " health left.\n";
+    playerName = "Fred";
+
+    cout << "Your name is " << playerName << endl;
 
     return 0;
 }
